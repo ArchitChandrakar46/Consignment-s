@@ -1,0 +1,29 @@
+p
+{
+   background-color: darkkhaki;
+}
+h2
+{
+    background-color: cornflowerblue;
+}
+#paragraph3
+{
+    background-color: lightcoral;
+}
+.PAR
+{
+    background-color: orange;
+    font-size: 20px;
+}
+*
+{
+    background-color:black;
+}
+h4,a,h4
+{
+    background-color:darkseagreen ;
+}
+div, ul, li
+{ 
+    background-color: crimson;
+}
