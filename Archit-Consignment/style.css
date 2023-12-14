@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fira+Sans:ital@1&family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fira+Sans:ital@1&family=Nunito:ital@1&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #d6d1d1;
+  font-family: 'Fira Sans', 'sans-serif';
+  height: 126vh;
+  transition: transformer 0,3s ease-in;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-style: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  /*background-color: yellow;*/
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: pink;*/
+  height: 55vw;
+  width: 68vw;
+  margin: 8vw;
+  margin-top: 112px;
+  justify-content: space-around;
+}
+
+element.style {
+  margin: auto;
+  margin-top: 45px;
+  width: 169px;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 143px;
+  font-family: 'Caprasimo', cursive;
+}
+
+.hello {
+  font-size: 90px;
+}
+
+.name {
+  font size: 70px;
+  font style: bold;
+  font-family: 'Fira Sans', 'sans-serif';
+}
+
+.about {
+  font size: 50px;
+}
+
+.buttons button{
+  padding: 12px;
+  border-radius: 20px;
+  font-style: OBLIQUE;
+  font-weight: bold;
+  background-color: #d1c4c4;
+  color: black;
+  font-size: 19px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.buttons button:hover{
+  color: green;
+  background-color: #86d8e9;
+}
+
+.devPic img {
+  width: 210px;
+  margin-left: -230px;
+  margin-top: -298px;
+  margin-left: 700px;
+  margin-top: -8px;
+
+}
+
+.moreAboutMe {
+  margin-top: 23 px;
+  font size: 65px;
+  font style: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+ .contactform{
+       font-family: 'Caprasimo', cursive;
+       padding-top: 100px;
+       padding: 0 34px;
+ } 
+ .contactform h1{
+       font-family: 'Fira Sans', 'sans-serif';
+       text-align: center;
+ }    
+ .form-group{
+       margin-bottom: 30px;
+       border-radius: 20px;
+       width: 245px;
+       height: 34px;
+ }
+ .form-group1{
+    border-radius: 20px;
+    margin-bottom: 50px;
+ } 
+#emailHelp{
+    color: #be6262;
+    margin: 0 5px;
+}
+.form-group4{
+    margin-top: 13px;
+}  
+.btn btn-primary1{
+     color: green;
+     background-color: #86d8e9;
+     border-radius: 10px;
+     width: 62px;
+     height: 24px;
+}  
+ .devPic1 img{
+   width: 150px;
+ } 
+.buttons2{
+        
+    width: 66px;
+    border-radius: 86px;
+    height: 38px;
+    background-color: #98e69a;
+} 
+.blogContainer{
+     font-size: 50px;
+}  
+.blogItem1{
+    font-style: italic;
+    color: #b46767;
+    font-size: 20px;
+}
+.blogItem2{
+    font-style: italic;
+    color: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.blogItem3{
+    font-style: italic;
+    color: #7575cc;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.blogItem4{
+    font-style: italic;
+    font-size: 20px;
+    color: #b1b15d;
+}  
+p1{
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 10px;
+}
+ p2{
+   font-family: 'Caprasimo', cursive;
+   margin-bottom: 10px;
+ }
+ p3{
+   font-family: 'Caprasimo', cursive;
+   margin-bottom: 10px;
+ } 
+  p4{
+    font-family: 'Caprasimo', cursive;
+   margin-bottom: 10px;
+  }
+  .skill11{
+   width: 243px;
+   height: 10px;
+   background-color: blue;
+ }  
+ .skill0{
+   width: 265px;
+   height: 10px;
+   background-color: #619438;
+ }
+  .skill1{
+   width: 186px;
+   height: 10px;
+   background-color: blue;
+ } 
+  .skill2{
+   width: 215px;
+   height: 10px;
+   background-color: blue;
+ } 
+  .skill3{
+   width: 216px;
+   height: 10px;
+   background-color: blue  ;
+ } 
+  .skill4{
+  width: 216px;
+   height: 10px;
+   background-color: blue;
+ } 
+  
+  .skill9{
+   width: 239px;
+   height: 10px;
+   background-color: blue;
+ } 
+ .skill10{
+   width: 239px;
+   height: 10px;
+   background-color: blue;
+ }
+.sidebarGo{
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+ .hamburger{
+   position: absolute;
+   cursor: pointer;
+   top: 10px;
+   left: 10px;
+ }
+.cross{
+  margin-left: 130px;
+}
